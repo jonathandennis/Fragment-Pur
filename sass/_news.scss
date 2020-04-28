@@ -1,0 +1,25 @@
+.news {
+    height: 70vh;
+    background-color: $color-grey-light-1;
+
+    display: flex;
+
+    &__headline {
+        width: 20%;
+    }
+
+    &__image {
+        width: 80%;
+        padding: 3rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-img {
+            height: 90%;
+            border-radius: 3px;
+            box-shadow: 0 2rem 5rem rgba(#000, .2);
+        }
+    }
+}

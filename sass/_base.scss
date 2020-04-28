@@ -1,0 +1,55 @@
+// COLOR VARIABLES
+$color-primary: #666666;
+$color-primary-dark: #333333; // logo black
+
+$color-white: #fff; // same as logo
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #bcbcbc; // navigation text
+$color-grey-light-3: #a6a3a3; // text
+
+$color-type-special: #cc9966;
+
+$color-grey-dark-1: #555555; // dark text 
+
+// FONT VARIABLES
+$font-primary: 'Helvetica', sans-serif;
+$font-display: 'Galvji', sans-serif; 
+$font-title: 'Industry-Book', sans-serif;
+
+@font-face {
+    font-family: 'Galvji';
+    src: url(../vendors/fonts/Galvji.ttc);
+}
+
+@font-face {
+    font-family: 'Industry-Book';
+    src: url(../vendors/fonts/Industry-Book.ttf);
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../vendors/fonts/Helvetica.ttc);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px
+    // shrinks font size at 1200px
+    //@media only screen and (max-width: $bp-largest) {
+        //font-size: 50%;}
+}
+
+body {
+    font-family: $font-primary;
+    color: $color-primary-dark;
+    //font-weight: 300;
+    line-height: 1.6;
+}

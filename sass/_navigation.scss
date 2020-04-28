@@ -1,0 +1,35 @@
+.nav {
+    background-color: $color-primary;
+    height: 4.5rem;
+    //padding: .8rem;
+
+    &__list {
+        height: 100%;
+        font-family: $font-display;
+        font-size: 1.8rem;
+        color: $color-grey-light-2;
+        text-transform: uppercase;
+        list-style-type: none;
+        backface-visibility: hidden;
+        transition: all .3s;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    &__link {
+
+        &:link,
+        &:visited {
+            color: $color-grey-light-2;
+            text-decoration: none;
+        }
+        
+        &:hover,
+        &:active {
+            color: $color-grey-light-1;
+            transform: scale(115%);
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.about {
+    background-color: $color-primary-dark;
+    height: 90vh;
+    padding: 5% 10%;
+
+    &__header {
+        font-size: 3.4rem;
+        font-weight: 100;
+        font-family: $font-title;
+        text-transform: uppercase;
+        color: $color-grey-light-3;
+        margin-bottom: 2rem;
+
+        span {
+            color: $color-grey-dark-1;
+        } 
+    }
+
+    &__body {
+        font-size: 1.8rem;
+        font-weight: lighter;
+        font-family: $font-primary;
+        color: $color-grey-light-3;
+        letter-spacing: .05rem;
+    }
+}
