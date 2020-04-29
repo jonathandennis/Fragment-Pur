@@ -1,3 +1,42 @@
 .stock {
-    
+    height: 95vh;
+    background-color: $color-primary-dark;
+    font-family: $font-display;
+    color: $color-grey-light-3;
+    text-transform: uppercase;
+
+    display: flex;
+
+    &__list {
+        width: 25%;
+        margin-left: 3rem;
+        margin-top: 3rem;
+
+        &-head {
+            margin-top: 2rem;
+            font-size: 1.6rem;
+
+        }
+
+        &-type {
+            list-style-type: none;
+            font-size: 1.1rem;
+        }
+
+        &-couleur {
+            list-style-type: none;
+            font-size: 1.1rem;
+        }
+    }
+
+    &__items {
+        width: 75%;
+        margin-top: 3rem;
+
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
 }
