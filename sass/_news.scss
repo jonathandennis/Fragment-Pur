@@ -1,25 +1,49 @@
 .news {
-    height: 70vh;
-    background-color: $color-grey-light-1;
+    height: 95vh;
+    background-color: $color-primary-dark;
+    font-family: $color-type-special;
 
     display: flex;
 
     &__headline {
-        width: 20%;
+        width: 25%;
+        padding: 3rem;
+
+        &-title {
+            color: $color-type-special;
+            font-size: 3rem;
+            font-weight: 100;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        &-item {
+            color: $color-type-special;
+            font-size: 2rem;
+            font-weight: 100;
+            list-style-type: none;
+        }
     }
 
     &__image {
-        width: 80%;
-        padding: 3rem;
+        width: 75%;
 
         display: flex;
         flex-direction: column;
-        align-items: center;
 
         &-img {
-            height: 90%;
+            width: 90%;
             border-radius: 3px;
             box-shadow: 0 2rem 5rem rgba(#000, .2);
+        }
+
+        &-name {
+            flex: start;
+
+            color: $color-type-special;
+            font-size: 3rem;
+            font-weight: 100;
+            text-transform: uppercase;
         }
     }
 }
