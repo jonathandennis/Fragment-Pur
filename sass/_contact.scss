@@ -1,3 +1,33 @@
 .contact {
-    
+    height: 80vh;
+    background-color: $color-primary-dark;
+    font-family: $font-display;
+    color: $color-grey-light-2;
+    padding-top: 15rem;
+
+    display: flex;
+
+    &__text-box {
+        width: 40%;
+        margin-top: 1rem;
+    }
+
+    &__logo {
+        width: 25rem;
+        margin-left: 20rem;
+        margin-bottom: 2rem;
+    }
+
+    &__address {
+        margin-left: 25rem;
+    }
+
+    &__map-box {
+        width: 60%;
+    }
+
+    &__map {
+        width: 45%;
+        margin-left: 25rem;
+    }
 }

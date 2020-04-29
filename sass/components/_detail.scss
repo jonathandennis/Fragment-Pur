@@ -1,0 +1,28 @@
+.detail {
+    height: 100vh;
+    background-color: $color-primary-dark;
+    
+    &__content {
+    
+    }
+
+    &__img {
+        background-size: cover;
+        width: 100%; 
+        height: 94vh;
+    }
+
+    &__head {
+        font-family: $font-display;
+        color: $color-grey-light-2;
+        text-transform: uppercase;
+        margin-left: 5rem;
+    }
+
+    &__type {
+        font-family: $font-display;
+        color: $color-grey-light-2;
+        margin-left: 5rem;
+    }
+}
+
