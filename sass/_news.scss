@@ -1,49 +1,52 @@
 .news {
-    height: 95vh;
-    background-color: $color-primary-dark;
-    font-family: $color-type-special;
+    height: 90vh;
+    font-family: $font-display;
 
     display: flex;
 
     &__headline {
         width: 25%;
-        padding: 3rem;
+        padding: 3.5rem;
+
+        display: flex;
+        flex-direction: column;
 
         &-title {
             color: $color-type-special;
-            font-size: 3rem;
-            font-weight: 100;
+            font-size: 3.5rem;
+            font-weight: lighter;
             text-transform: uppercase;
             margin-bottom: 2rem;
         }
 
         &-item {
             color: $color-type-special;
-            font-size: 2rem;
-            font-weight: 100;
+            font-size: 2.5rem;
+            font-weight: lighter;
             list-style-type: none;
         }
     }
 
     &__image {
         width: 75%;
+        padding-right: 3rem;
 
         display: flex;
         flex-direction: column;
 
         &-img {
-            width: 90%;
+            height: 90%;
             border-radius: 3px;
-            box-shadow: 0 2rem 5rem rgba(#000, .2);
+            box-shadow: 0 2rem 5rem rgba(#000, .4);
         }
 
         &-name {
-            flex: start;
-
+            height: 20%;
             color: $color-type-special;
             font-size: 3rem;
-            font-weight: 100;
             text-transform: uppercase;
+
+            flex: start;
         }
     }
 }

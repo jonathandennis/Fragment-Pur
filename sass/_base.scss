@@ -31,11 +31,14 @@ $font-title: 'Industry-Book', sans-serif;
     src: url(../vendors/fonts/Helvetica.ttc);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
     box-sizing: inherit;
 }
 
