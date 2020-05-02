@@ -1,13 +1,29 @@
 .card {
-    height: 24rem;
-    width: 30rem;
+    height: 26rem;
+    width: 32rem;
     border-radius: 3px;
+    border: solid 2px;
+    border-color: #303030;
+    box-shadow: 0 .4rem 1rem rgba(#000, .16);
 
 
     &__img {
         background-size: cover;
-        height: 20rem;
-        width: 30rem;
+        height: 21.6rem;
+        width: 31.6rem;
         border-radius: 3px;
+    }
+
+    &__head,
+    &__type {
+        margin-left: .5rem;
+    }
+
+    &__head {
+
+    }
+
+    &__type {
+
     }
 }
