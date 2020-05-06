@@ -44,23 +44,23 @@ body {
   padding: .8rem;
   overflow: hidden; }
   .nav__list {
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .nav__item {
+    transition: all .2s;
     font-family: "Galvji", sans-serif;
     font-size: 1.8rem;
     color: #bcbcbc;
     text-transform: uppercase;
     list-style-type: none;
-    backface-visibility: hidden;
-    transition: all .3s;
-    display: flex;
-    align-items: center;
-    justify-content: space-around; }
+    display: flex; }
   .nav__link:link, .nav__link:visited {
     color: #bcbcbc;
     text-decoration: none; }
   .nav__link:hover, .nav__link:active {
     color: #f9f7f6;
-    transform: scale(115%); }
+    transform: scale(1.1); }
 
 .sticky {
   position: fixed;
@@ -68,7 +68,7 @@ body {
   width: 100%; }
 
 .sticky + .about {
-  padding-top: 8.4%; }
+  padding-top: 8.2%; }
 
 .header {
   background-image: url(../img/marblequarry.jpg);
@@ -103,6 +103,7 @@ body {
 
 .news {
   height: 90vh;
+  margin-bottom: 5rem;
   font-family: "Galvji", sans-serif;
   display: flex; }
   .news__headline {
@@ -145,16 +146,17 @@ body {
   color: #a6a3a3;
   text-transform: uppercase;
   display: flex; }
-  .stock__list {
+  .stock__nav {
     width: 20%;
     margin-left: 10rem;
     margin-top: 5rem; }
-    .stock__list-head {
+    .stock__nav-head {
       margin-top: 2rem;
       font-size: 1.6rem; }
   .stock__item {
     list-style-type: none;
     font-size: 1.1rem;
+    transition: all .3s;
     display: flex;
     flex-direction: column;
     flex-grow: 1; }
@@ -163,7 +165,7 @@ body {
     text-decoration: none; }
   .stock__link:hover, .stock__link:active {
     color: #f9f7f6;
-    transform: scale(115%); }
+    transform: scale(1.03); }
   .stock__items {
     width: 80%;
     margin-top: 3rem;
@@ -201,7 +203,8 @@ body {
   border-radius: 3px;
   border: solid 2px;
   border-color: #303030;
-  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.16); }
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.16);
+  transition: all .2s; }
   .card__img {
     background-size: cover;
     height: 21.6rem;
@@ -209,6 +212,8 @@ body {
     border-radius: 3px; }
   .card__head, .card__type {
     margin-left: .5rem; }
+  .card:hover {
+    transform: scale(1.04); }
 
 .detail {
   height: 100vh;

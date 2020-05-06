@@ -8,7 +8,7 @@
 
     display: flex;
 
-    &__list {
+    &__nav {
         width: 20%;
         margin-left: 10rem;
         margin-top: 5rem;
@@ -23,6 +23,7 @@
     &__item {
         list-style-type: none;
         font-size: 1.1rem;
+        transition: all .3s; 
 
         display: flex;
         flex-direction: column;
@@ -40,7 +41,7 @@
         &:hover,
         &:active {
             color: $color-grey-light-1;
-            transform: scale(115%);
+            transform: scale(1.03);
         }
     }
 

@@ -6,6 +6,8 @@
     border-color: #303030;
     box-shadow: 0 .4rem 1rem rgba(#000, .16);
 
+    transition: all .2s; 
+
 
     &__img {
         background-size: cover;
@@ -25,5 +27,9 @@
 
     &__type {
 
+    }
+
+    &:hover {
+        transform: scale(1.04);
     }
 }
