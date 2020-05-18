@@ -3,7 +3,9 @@
     width: 32rem;
     border-radius: 3px;
     border: solid 2px;
+    //@extend: $color-grey-dark-1;
     border-color: #303030;
+    //border-color: #666666;
     box-shadow: 0 .4rem 1rem rgba(#000, .16);
 
     transition: all .2s; 
